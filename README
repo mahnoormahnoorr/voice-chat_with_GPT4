@@ -23,11 +23,13 @@ Also ensure you have ffmpeg installed on your system, which is required for audi
 Create a .env file in the same directory with your OpenAI API key:
 
 OPENAI_API_KEY=your_openai_api_key_here
+
 🚀 How to Run
 
 Launch the chatbot by running the Jupyter notebook or executing the Python code:
 
 jupyter notebook gpt4_voicechat.ipynb
+
 The interface will open in your browser. Speak into your microphone, and the chatbot will respond.
 
 
@@ -38,12 +40,6 @@ SpeechRecognition converts audio to text.
 LangChain feeds the recognized text to GPT-4 with memory support.
 The chatbot responds, and the response is displayed in the interface.
 
-🧩 How It Works
-
-Gradio captures audio input.
-SpeechRecognition converts audio to text.
-LangChain feeds the recognized text to GPT-4 with memory support.
-The chatbot responds, and the response is displayed in the interface.
 
 📌 Notes
 
@@ -51,7 +47,5 @@ If the chatbot cannot understand the audio, it will return a polite error messag
 The conversation memory allows GPT-4 to understand context across turns.
 
 
-If the chatbot cannot understand the audio, it will return a polite error message.
-The conversation memory allows GPT-4 to understand context across turns.
 
 
