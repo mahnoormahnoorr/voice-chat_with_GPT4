@@ -24,7 +24,7 @@ Create a .env file in the same directory with your OpenAI API key:
 
 OPENAI_API_KEY=your_openai_api_key_here
 
-🚀 How to Run
+## 🚀 How to Run
 
 Launch the chatbot by running the Jupyter notebook or executing the Python code:
 
@@ -33,7 +33,7 @@ jupyter notebook gpt4_voicechat.ipynb
 The interface will open in your browser. Speak into your microphone, and the chatbot will respond.
 
 
-🧩 How It Works
+## 🧩 How It Works
 
 Gradio captures audio input.
 SpeechRecognition converts audio to text.
