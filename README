@@ -1,8 +1,8 @@
-🎤 GPT-4 Voice Chatbot
+# 🎤 TalkBot
 
 This project is a voice-based chatbot interface powered by OpenAI's GPT-4, using Gradio for the UI and SpeechRecognition for converting audio input to text. Users can speak into their microphone, and the chatbot will respond intelligently using conversational memory.
 
-📦 Features
+## 📦 Features
 
 🎙️ Voice input through the microphone
 🤖 Conversational AI using GPT-4 via LangChain
@@ -10,7 +10,7 @@ This project is a voice-based chatbot interface powered by OpenAI's GPT-4, using
 🌐 Web interface using Gradio (can be shared via a link)
 
 
-🛠️ Requirements
+## 🛠️ Requirements
 
 Install the required packages using pip:
 
@@ -18,7 +18,7 @@ pip install gradio openai langchain python-dotenv SpeechRecognition
 
 Also ensure you have ffmpeg installed on your system, which is required for audio processing by Gradio.
 
-🔐 Setup
+## 🔐 Setup
 
 Create a .env file in the same directory with your OpenAI API key:
 
